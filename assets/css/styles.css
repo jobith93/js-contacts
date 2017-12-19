@@ -1,0 +1,117 @@
+/* styles */
+
+body{
+    margin: 0;
+    background: #ffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container{
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    background: #ccc;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0px 3px 5px #AAA;
+    border: solid 1px #CCC;
+}
+
+.clearfix{
+    clear: both;
+    height: 0;
+}
+
+.contacts-panel{
+    float: left;
+    width: 30%;
+    background: #eee;
+}
+
+
+
+.heading{
+    height: 50px;
+    text-align: center;
+}
+
+.search{
+    height: 50px;
+    background: darkblue;
+}
+.search input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 2%;
+    outline: none;
+    height: 50px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.contacts-list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 300px;
+    overflow: auto;
+}
+
+.contact{
+    height: 50px;
+    border-bottom: solid 2px #CCC;
+    background: white;
+    padding: 5px;
+    position: relative;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 3px 5px #AAA;
+}
+
+.contact .profile{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.contact .details{
+    position: absolute;
+    text-align: left;
+    left: 55px;
+    top: -10px;
+}
+
+.contact .details small{
+    color: #777;
+}
+
+.details-panel{
+    width: 70%;
+    float: right;
+    background: white;
+    height: 300px;
+}
+
+.contact-box{
+    background: #ddd;
+    margin: 3% auto;
+    padding: 2%;
+    border-radius: 20px;
+    width: 45%;
+    text-align: center;
+}
+
+.contact-box .profile{
+    height: 80px;
+    width: 80px;
+}
+
+.add-contact{
+    margin-top: 70px;
+}

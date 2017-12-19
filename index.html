@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Contacts</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="contacts-panel">
+            <div class="heading">
+                <h3>Contacts</h3>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="search" id="search-input" />
+            </div>
+            <div class="contacts-list">
+                <ul id="con-list">
+                    <li>
+                        <div class="contact">
+                            <img src="assets/img/profile.jpg" class="profile" />
+                            <div class="details">
+                                <h4>Name of the person
+                                    <br>
+                                    <small>Relation</small>
+                                </h4>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="details-panel">
+            <div class="contact-box">
+                <img src="assets/img/profile.jpg" class="profile" id="c-image" />
+                <h2 id="c-name">Name of the person</h2>
+                <h4 id="c-relation">Relation</h4>
+                <h3 id="c-phone">+91 8904330374</h3>
+            </div>
+            <div class="add-contact">
+                    <input type="text" placeholder="name" id="inp-name" />
+                    <input type="text" placeholder="relation" id="inp-relation" />
+                    <input type="text" placeholder="phone" id="inp-phone" />
+                    <input type="button" value="create contact" onClick="createPerson()" />
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
